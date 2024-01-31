@@ -1,0 +1,79 @@
+Options +FollowSymLinks
+
+
+
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^^exactwebs.com [NC]
+# RewriteRule ^(.*)$ http://www.^exactwebs.com/$1 [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^exactwebs.com/
+RewriteRule ^(.*)$ https://www.exactwebs.com [L,R=301]
+
+
+ErrorDocument 404 https://www.exactwebs.com
+
+ErrorDocument 500 https://www.exactwebs.com
+
+ErrorDocument 301 https://www.exactwebs.com
+
+
+
+
+
+
+RewriteRule    ^index.html$    index.htm    [NC]    # Change feed URL
+
+RewriteRule    ^about_us.html$    about_us.htm    [NC]    # Change feed URL
+
+RewriteRule    ^services.html$    services.htm    [NC]    # Change feed URL
+
+RewriteRule    ^website-design.html$    website-design.htm    [NC]    # Change feed URL
+
+RewriteRule    ^website-devlopment.html$    website-devlopment.htm    [NC]    # Change feed URL
+
+RewriteRule    ^web-maintenance.html$    web-maintenance.htm    [NC]    # Change feed URL
+
+RewriteRule    ^web-hosting.html$    web-hosting.htm    [NC]    # Change feed URL
+
+RewriteRule    ^domain-registration.html$    domain-registration.htm    [NC]    # Change feed URL
+
+RewriteRule    ^graphic-design.html$    graphic-design.htm    [NC]    # Change feed URL
+
+RewriteRule    ^profile-design.html$    profile-design.htm    [NC]    # Change feed URL
+
+RewriteRule    ^logo-design.html$    logo-design.htm    [NC]    # Change feed URL
+
+RewriteRule    ^e-broucher.html$    e-broucher.htm    [NC]    # Change feed URL
+
+RewriteRule    ^business-card.html$    business-card.htm    [NC]    # Change feed URL
+
+RewriteRule    ^seo.html$    seo.htm    [NC]    # Change feed URL
+
+RewriteRule    ^content-writing.html$    content-writing.htm    [NC]    # Change feed URL
+
+RewriteRule    ^email-marketing.html$    email-marketing.htm    [NC]    # Change feed URL
+
+RewriteRule    ^portfolio.html$    portfolio.htm    [NC]    # Change feed URL
+
+RewriteRule    ^blog.html$    blog.htm    [NC]    # Change feed URL
+
+RewriteRule    ^website-design.html$    website-design.htm    [NC]    # Change feed URL
+
+RewriteRule    ^website-devlopment.html$    website-devlopment.htm    [NC]    # Change feed URL
+
+RewriteRule    ^why-your-site-should-be-mobile-friendly.html$    why-your-site-should-be-mobile-friendly.htm    [NC]    # Change feed URL
+
+RewriteRule    ^A-responsive-website-for-your-business.html$    A-responsive-website-for-your-business.htm    [NC]    # Change feed URL
+
+RewriteRule    ^social-media-&-sme.html$    social-media-&-sme.htm    [NC]    # Change feed URL
+
+RewriteRule    ^terms.html$    terms.htm    [NC]    # Change feed URL
+
+RewriteRule    ^graphic_design_blog.html$    graphic_design_blog.htm    [NC]    # Change feed URL
+
+RewriteRule    ^Seo-defination.html$    Seo-defination.htm    [NC]    # Change feed URL
+
+RewriteRule    ^redesign_website.html$    redesign_website.htm    [NC]    # Change feed URL
+
+RewriteRule    ^contactus.html$    contactus.htm [NC]    # Change feed URL
