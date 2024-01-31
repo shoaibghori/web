@@ -1,275 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-
-	<loc>https://www.exactwebs.com/</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
-</url>
 
 <url>
-
-	<loc>https://www.exactwebs.com/about_us.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/services.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/index.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/website-design.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/about_us.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/web-maintenance.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/services.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/web-hosting.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/website-design.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/domain-registration.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/website-devlopment.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/graphic-design.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/web-maintenance.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/profile-design.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/web-hosting.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/logo-design.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/domain-registration.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/e-broucher.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/graphic-design.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/business-card.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/profile-design.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/seo.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/logo-design.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/content-writing.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/e-broucher.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/email-marketing.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/business-card.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/portfolio.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/seo.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/blog.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/content-writing.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/contactus.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/email-marketing.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/why-your-site-should-be-mobile-friendly.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/portfolio.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/A-responsive-website-for-your-business.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/blog.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/terms.htm</loc>
-
-	<lastmod>2023-02-20T20:20:31+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/contactus.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/</loc>
-
-	<lastmod>2023-02-20T20:20:33+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/why-your-site-should-be-mobile-friendly.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/blog/colors-of-the-web-in-2024.htm</loc>
-
-	<lastmod>2023-02-20T20:20:36+01:00</lastmod>
-
-	<priority>0.8</priority>
-
+  <loc>https://exactwebs.com/A-responsive-website-for-your-business.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/graphic_design_blog.htm</loc>
-
-	<lastmod>2023-02-20T20:20:36+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/terms.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/seo-optimization.htm</loc>
-
-	<lastmod>2023-02-20T20:20:36+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/blog/colors-of-the-web-in-2024.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/Seo-defination.htm</loc>
-
-	<lastmod>2023-02-20T20:20:36+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/graphic_design_blog.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-
 <url>
-
-	<loc>https://www.exactwebs.com/redesign_website.htm</loc>
-
-	<lastmod>2023-02-20T20:20:36+01:00</lastmod>
-
-	<priority>1.0</priority>
-
+  <loc>https://exactwebs.com/seo-optimization.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://exactwebs.com/Seo-defination.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://exactwebs.com/redesign_website.htm</loc>
+  <lastmod>2024-01-31T18:43:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>
