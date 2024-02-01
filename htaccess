@@ -1,6 +1,7 @@
 Options +FollowSymLinks
 
-
+RewriteEngine On
+RewriteRule ^(.*)\.php$ $1.htm [L]
 
 # RewriteEngine On
 # RewriteCond %{HTTP_HOST} ^^exactwebs.com [NC]
