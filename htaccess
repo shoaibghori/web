@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 
 RewriteEngine On
-RewriteRule ^(.*)\.php$ $1.htm [L]
+RewriteRule ^(.*)\.php$ $1 [L]
 
 # RewriteEngine On
 # RewriteCond %{HTTP_HOST} ^^exactwebs.com [NC]
@@ -23,58 +23,58 @@ ErrorDocument 301 https://www.exactwebs.com
 
 
 
-RewriteRule    ^index.php$    index.htm    [NC]    # Change feed URL
+RewriteRule    ^index.php$    index    [NC]    # Change feed URL
 
-RewriteRule    ^about_us.php$    about_us.htm    [NC]    # Change feed URL
+RewriteRule    ^about_us.php$    about_us    [NC]    # Change feed URL
 
-RewriteRule    ^services.php$    services.htm    [NC]    # Change feed URL
+RewriteRule    ^services.php$    services    [NC]    # Change feed URL
 
-RewriteRule    ^website-design.php$    website-design.htm    [NC]    # Change feed URL
+RewriteRule    ^website-design.php$    website-design    [NC]    # Change feed URL
 
-RewriteRule    ^website-devlopment.php$    website-devlopment.htm    [NC]    # Change feed URL
+RewriteRule    ^website-devlopment.php$    website-devlopment    [NC]    # Change feed URL
 
-RewriteRule    ^web-maintenance.php$    web-maintenance.htm    [NC]    # Change feed URL
+RewriteRule    ^web-maintenance.php$    web-maintenance    [NC]    # Change feed URL
 
-RewriteRule    ^web-hosting.php$    web-hosting.htm    [NC]    # Change feed URL
+RewriteRule    ^web-hosting.php$    web-hosting    [NC]    # Change feed URL
 
-RewriteRule    ^domain-registration.php$    domain-registration.htm    [NC]    # Change feed URL
+RewriteRule    ^domain-registration.php$    domain-registration    [NC]    # Change feed URL
 
-RewriteRule    ^graphic-design.php$    graphic-design.htm    [NC]    # Change feed URL
+RewriteRule    ^graphic-design.php$    graphic-design    [NC]    # Change feed URL
 
-RewriteRule    ^profile-design.php$    profile-design.htm    [NC]    # Change feed URL
+RewriteRule    ^profile-design.php$    profile-design    [NC]    # Change feed URL
 
-RewriteRule    ^logo-design.php$    logo-design.htm    [NC]    # Change feed URL
+RewriteRule    ^logo-design.php$    logo-design    [NC]    # Change feed URL
 
-RewriteRule    ^e-broucher.php$    e-broucher.htm    [NC]    # Change feed URL
+RewriteRule    ^e-broucher.php$    e-broucher    [NC]    # Change feed URL
 
-RewriteRule    ^business-card.php$    business-card.htm    [NC]    # Change feed URL
+RewriteRule    ^business-card.php$    business-card    [NC]    # Change feed URL
 
-RewriteRule    ^seo.php$    seo.htm    [NC]    # Change feed URL
+RewriteRule    ^seo.php$    seo    [NC]    # Change feed URL
 
-RewriteRule    ^content-writing.php$    content-writing.htm    [NC]    # Change feed URL
+RewriteRule    ^content-writing.php$    content-writing    [NC]    # Change feed URL
 
-RewriteRule    ^email-marketing.php$    email-marketing.htm    [NC]    # Change feed URL
+RewriteRule    ^email-marketing.php$    email-marketing    [NC]    # Change feed URL
 
-RewriteRule    ^portfolio.php$    portfolio.htm    [NC]    # Change feed URL
+RewriteRule    ^portfolio.php$    portfolio    [NC]    # Change feed URL
 
-RewriteRule    ^blog.php$    blog.htm    [NC]    # Change feed URL
+RewriteRule    ^blog.php$    blog    [NC]    # Change feed URL
 
-RewriteRule    ^website-design.php$    website-design.htm    [NC]    # Change feed URL
+RewriteRule    ^website-design.php$    website-design    [NC]    # Change feed URL
 
-RewriteRule    ^website-devlopment.php$    website-devlopment.htm    [NC]    # Change feed URL
+RewriteRule    ^website-devlopment.php$    website-devlopment    [NC]    # Change feed URL
 
-RewriteRule    ^why-your-site-should-be-mobile-friendly.php$    why-your-site-should-be-mobile-friendly.htm    [NC]    # Change feed URL
+RewriteRule    ^why-your-site-should-be-mobile-friendly.php$    why-your-site-should-be-mobile-friendly    [NC]    # Change feed URL
 
-RewriteRule    ^A-responsive-website-for-your-business.php$    A-responsive-website-for-your-business.htm    [NC]    # Change feed URL
+RewriteRule    ^A-responsive-website-for-your-business.php$    A-responsive-website-for-your-business    [NC]    # Change feed URL
 
-RewriteRule    ^social-media-&-sme.php$    social-media-&-sme.htm    [NC]    # Change feed URL
+RewriteRule    ^social-media-&-sme.php$    social-media-&-sme    [NC]    # Change feed URL
 
-RewriteRule    ^terms.php$    terms.htm    [NC]    # Change feed URL
+RewriteRule    ^terms.php$    terms    [NC]    # Change feed URL
 
-RewriteRule    ^graphic_design_blog.php$    graphic_design_blog.htm    [NC]    # Change feed URL
+RewriteRule    ^graphic_design_blog.php$    graphic_design_blog    [NC]    # Change feed URL
 
-RewriteRule    ^Seo-defination.php$    Seo-defination.htm    [NC]    # Change feed URL
+RewriteRule    ^Seo-defination.php$    Seo-defination    [NC]    # Change feed URL
 
-RewriteRule    ^redesign_website.php$    redesign_website.htm    [NC]    # Change feed URL
+RewriteRule    ^redesign_website.php$    redesign_website    [NC]    # Change feed URL
 
-RewriteRule    ^contactus.php$    contactus.htm [NC]    # Change feed URL
+RewriteRule    ^contactus.php$    contactus [NC]    # Change feed URL
