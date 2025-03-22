@@ -2588,3 +2588,9 @@ body.boxed .boxedWrap{position:relative;}
 
 
 body.boxed .boxedWrap:before{content:'';display:block;height:100%;width:100%;position:absolute;top:0;left:0;padding:0 25px;background-color:#ffffff;z-index:-1;}
+
+
+
+.topWrap .search{
+    display: none;
+}
