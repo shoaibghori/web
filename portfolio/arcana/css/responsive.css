@@ -1,0 +1,162 @@
+  /* Responsive adjustments */
+   @media (max-width: 576px) {
+    
+    .banner-txt {
+        padding: 6em  0;
+    }
+    .banner-txt h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .banner-txt p {
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+    }
+    .txt-home-services h1 {
+    font-size: 2rem;
+    }
+    .partner-holder {
+        padding: 5rem 0px 0;
+    }
+    .partner-holder h1 {
+        font-size: 1.8rem;
+    }
+    .txt-home-partner .card-title {
+        font-size: 1.5rem;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .reach-holder {
+        padding: 5rem 0;
+    }
+    .txt-holder-reach {
+        margin: 0;
+    }
+    .txt-holder-reach h5 {
+        margin-bottom: 2rem;
+    }
+    .txt-holder-reach h1 {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        margin-bottom: 3rem;
+    }
+    .footer-logo-area {
+        margin: 0 auto 40px;
+    }
+    .footer-links {
+        margin: 0 auto;
+        float: none;
+    }
+    .copy-right {
+        text-align: center;
+    }
+    .copy-right p{
+        margin-bottom: 20px;
+    }
+    .social-links {
+    float: none;
+}
+   }
+
+   @media (max-width: 768px) {
+    .banner-txt {
+        padding: 6em  0;
+    }
+    .banner-txt h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .banner-txt p {
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+    }
+    .txt-home-services h1 {
+    font-size: 2rem;
+    }
+    .partner-holder {
+        padding: 5rem 0px 0;
+    }
+    .partner-holder h1 {
+        font-size: 1.8rem;
+    }
+    .txt-home-partner .card-title {
+        font-size: 1.5rem;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .reach-holder {
+        padding: 5rem 0;
+    }
+    .txt-holder-reach {
+        margin: 0;
+    }
+    .txt-holder-reach h5 {
+        margin-bottom: 2rem;
+    }
+    .txt-holder-reach h1 {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        margin-bottom: 3rem;
+    }
+    .footer-logo-area {
+        margin: 0 auto 40px;
+    }
+    .footer-links {
+        margin: 0 auto;
+        float: none;
+    }
+    .copy-right {
+        text-align: center;
+    }
+    .copy-right p{
+        margin-bottom: 20px;
+    }
+    .social-links {
+    float: none;
+}
+   }
+
+
+
+
+
+
+
+
+
+    @media (max-width: 992px) {
+        .about-banner-txt h1 {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2rem;
+        }
+
+        .team-content h4 {
+            font-size: 1.3rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .about-banner-txt {
+            padding: 3em 0;
+        }
+
+        .about-banner-txt h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        .about-content-holder,
+        .executive-team-holder {
+            padding: 3rem 0;
+        }
+
+        .team-card {
+            margin-bottom: 20px;
+        }
+    }

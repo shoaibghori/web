@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ArcanaSemi</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.png" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- The scroll-to-top button -->
+    <div class="container-fluid px-0">
+        <div class="nav-holder">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo.svg" alt="ArcanaSemi-logo" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarsExample04" aria-controls="navbarsExample04"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                            onclick="location.href=this.href" aria-expanded="false">Services</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="services-micro-architectures-&-RTL-design.html">Micro-architectures
+                                                    & RTL design</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="design-verfication.html">Design
+                                                    Verification</a></li>
+                                            <li><a class="dropdown-item" href="physical-design.html">Physical Design</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="news.html">News</a></li>
+                                            <li><a class="dropdown-item " href="careers.html">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#reach-holder">Contact Us</a>
+
+                                    </li>
+                                    <li class="nav-item position-relative ms-3 d-none">
+                                        <!-- Search Toggle Icon -->
+                                        <button id="searchToggle" class="btn btn-link nav-link px-0"
+                                            aria-label="Open Search">
+                                            <i class="fas fa-search fa-lg"></i>
+                                        </button>
+
+                                        <!-- Expanding Search Input -->
+                                        <form id="searchForm" class="search-form d-inline-block" role="search"
+                                            onsubmit="return false;">
+                                            <input type="search" class="form-control search-input" placeholder="Search"
+                                                aria-label="Search" />
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="banner-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="banner-txt">
+                            <h1>Turn Complex Chip Designs into <br /> Market-Ready Silicon - Faster </h1>
+                            <p>Optimize PPA for your target node - from concept to GDSII</p>
+                            <a class="nav-link btnDefault" href="#reach-holder">Contact Us <span class="arrow"><i
+                                        class="fa-solid fa-arrow-right-long"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="o-services-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="txt-home-services">
+                            <h1>Our Services</h1>
+
+                            <p>Tired of vendors lacking niche semiconductor skills? Delays eating into your ROI? or Are
+                                you
+                                concerned about your IP security and compliance?</p>
+                            <p>Augment your team with our experienced engineers backed by proven methodologies and
+                                tools.
+                                Hit tapeout deadlines much faster and balance project deadlines within your budget
+                                constraints.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/micro-architecture.png" class="card-img-top img-fluid"
+                                    alt="micro-architecture">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Micro-architecture Definition</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/rtl-design.png" class="card-img-top img-fluid" alt="rtl-design">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">RTL Design</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/physical-design.png" class="card-img-top img-fluid"
+                                    alt="physical-design">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Physical Design</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/design-verification.png" class="card-img-top img-fluid"
+                                    alt="design-verification">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Design Verification</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partner-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="txt-home-partner">
+                            <h1>Why Partner With Us?</h1>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="icon-box">
+                                            <img src="images/slash-re-spin-costs.png" class="card-img-top img-fluid"
+                                                alt="Slash Re-Spin Costs">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Slash Re-Spin Costs</h5>
+                                            <p>98% tapeout success rate across 15+ projects</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="icon-box">
+                                            <img src="images/scale-teams-not-headaches.png"
+                                                class="card-img-top img-fluid" alt="scale-teams-not-headaches">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">scale-teams-not-headaches</h5>
+                                            <p>On-demand well trained niche specific talent</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="icon-box">
+                                            <img src="images/full-stack-expertise.png" class="card-img-top img-fluid"
+                                                alt="Full-Stack Expertise">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Full-Stack Expertise</h5>
+                                            <p>From architecture to GDSII end-to-end ownership</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="icon-box">
+                                            <img src="images/zero-ip-risks.png" class="card-img-top img-fluid"
+                                                alt="Zero IP Risks">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Zero IP Risks</h5>
+                                            <p>NDA-backed workflows. Zero breaches in 10+ years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reach-holder" id="reach-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="txt-holder-reach">
+                            <h5>Reach out to us</h5>
+                            <h1>Schedule a Technical Consultation</h1>
+                            <form class="text-start form-holder">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Business Email">
+                                    </div>
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Country">
+                                    </div>
+
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Company Email">
+                                    </div>
+
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Designation">
+                                    </div>
+
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Contact Number">
+                                    </div>
+
+
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="email" class="form-control" placeholder="How can we Help you?">
+                                    </div>
+
+                                </div>
+                            </form>
+                            <button class="btnDefault btn-submit">Submit <span class="arrow"><i
+                                        class="fa-solid fa-arrow-right-long"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-holder ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="footer-logo-area">
+                            <div class="footer-logo text-start">
+                                <a href="index.html">
+                                    <img src="images/logo.svg" alt="footer logo">
+                                </a>
+                                <p class="emailus">Contact Us At:<a href="mailto:info@primis.ai"> info@primis.ai</a></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="inde.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="services-micro-architectures-&-RTL-design.html">Services</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="index.html#reach-holder">Contact Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="news.html">Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="copy-right">
+                            <p> &copy; 2025 ArcanaSemi – All Rights Reserved
+                            </p>
+                            <div class="social-links">
+
+                                <ul>
+
+                                    <li><a href="#" target="_blank">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a></li>
+
+                                    <li><a href="#" target="_blank">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a></li>
+                                    <li><a href="https://www.linkedin.com/company/arcanasemi/" target="_blank">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scorll.js"></script>
+
+</body>
+
+</html>

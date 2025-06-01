@@ -1,0 +1,609 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(../webfonts/Poppins-Regular.ttf);
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+  
+}
+html, body {
+  height: 100%;
+  color:#000;
+  background: #fff;;
+  overflow-x: hidden;
+  font-family: 'Poppins-Regular',sans-serif;
+}
+/* header navbar */
+.nav-holder .nav-link{
+  font-weight: 500;
+  font-size: 16px;
+  color:#000;
+}
+.nav-holder .navbar-nav li.dropdown ul li a:hover{
+background: #03132d !important;
+color: #fff;
+}
+.nav-holder .btn-link{
+  color:#007bff;
+}
+.nav-link.active {
+  color: #0d6efd;
+  font-weight: bold;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* search form */
+
+
+.search-form {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  width: 0;
+  opacity: 0;
+  transition: width 0.4s ease, opacity 0.4s ease;
+  box-shadow: 0 2px 10px rgb(215 215 215);
+}
+.search-form.active {
+  width: 250px;
+  opacity: 1;
+}
+.search-input {
+  width: 100%;
+}
+/* search form */
+/* header navbar */
+/* banner home */
+.banner-holder{
+    background:#000d28 url('/images/home-main-banner1.jpg') no-repeat center top;
+    width: 100%;
+    background-size:cover;
+}
+.banner-txt{
+  color: #fff;
+  padding: 12em 0;
+}
+.banner-txt h1{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.25rem;
+}
+.banner-txt p{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  margin-bottom: 2.625rem;
+}
+.btnDefault {
+  background: #fff;
+  color: #000;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  padding: 0.5rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.btnDefault:hover{
+  background: #5aa731;
+    color: #fff;
+}
+.btnDefault .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.btnDefault:hover .arrow {
+  transform: translateX(6px);
+}
+.btnDefault:hover,.btnDefault:focus,.btnDefault:active {
+  outline: none;
+  border: none;
+}
+.txt-holder{
+    margin: 10em 0;
+}
+/* main banner */
+/* our services */
+.o-services-holder{
+  background: #fff;
+  text-align: center;
+  padding: 3em 0;
+}
+.txt-home-services h1{
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.25rem;
+}
+.txt-home-services p{
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.txt-home-services p + p{
+  margin-bottom: 4rem;
+}
+.o-services-holder .card{
+  border:none;
+  min-height:450px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+  .o-services-holder .card:hover {
+        transform: translateY(-10px) scale(1.02);
+    }
+
+.o-services-holder .card-img {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.o-services-holder .card-body {
+  padding:1.50rem 0.5rem !important;
+}
+.o-services-holder .card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+}
+/* our services */
+/* partner home */
+.partner-holder{
+  width: 100%;
+  padding: 10rem 0;
+  text-align: center;
+  background:#000d28  url('/images/bg-why-partener-with-us.jpg') no-repeat center top;
+  background-size:cover;
+}
+.partner-holder h1{
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.txt-home-partner .card{
+  text-align: center;
+  min-height: 360px;
+  background: transparent;
+}
+.txt-home-partner .icon-box{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.txt-home-partner .icon-box img{
+  width: 110px;
+  height: 110px;
+}
+.txt-home-partner .card-title{
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  min-height: 80px;
+  text-transform: capitalize;
+}
+.txt-home-partner .card p{
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+}
+.txt-home-partner .card-body{
+  padding: 1rem 0.5rem;
+
+}
+/* partner home */
+/* reach-holder-form-home */
+.reach-holder{
+  text-align: center;
+  padding: 8rem 0;
+}
+.txt-holder-reach{
+  margin:0 10rem;
+}
+.form-holder{
+  margin-bottom: 20px;
+}
+.txt-holder-reach h5{
+  font-weight: 300;
+ font-size: 2.5rem;
+  line-height: 2.625rem;
+  margin-bottom: 0;
+}
+.txt-holder-reach h1{
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2.625rem;
+  margin-bottom: 1.625rem;
+}
+.txt-holder-reach input[type="text"], .txt-holder-reach input[type="email"]{
+  background: #E6E6E6 !important;
+  color: #837F7F !important;
+  border-radius: 6px;
+  border: none;
+  padding: 0.45rem 1rem;
+}
+.btn-submit{
+  background: #04122c;
+  color: #fff;
+
+}
+/* reach-holder-form-home */
+
+.footer-holder{
+      background: #000e2b;
+    color: #ffffff;
+  padding: 3rem 0 1rem;
+}
+.footer-logo-area {
+  width: 300px;
+}
+.footer-logo{
+  margin-bottom: 5px;
+}
+.footer-logo a, .footer-logo a:hover,.footer-logo a:active,.footer-logo a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.footer-logo-area{
+  text-align: right;
+}
+.emailus{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.emailus a{
+  color:#fff;
+}
+.emailus a:hover{
+  color:#fff;
+  text-decoration: underline;;
+}
+.social-links{
+  float:right;
+}
+ .social-links ul{
+  margin: 0 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+ .social-links ul li{
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+ .social-links ul li:last-child{
+  margin-right: 0;
+}
+ .social-links ul li a{
+  color: #ffffff;
+}
+.footer-links{
+  overflow: hidden;
+  width: 190px;
+  float: right;
+}
+.footer-links ul{
+  margin: 0 15px 0 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+.footer-links ul li{
+  margin: 10px 0;
+}
+.footer-links ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-links ul li a:active,.footer-links ul li a:hover,.footer-links ul li a:focus{
+  text-decoration: underline;
+}
+.copy-right{
+  border-top: 1px solid #ffffff;
+  padding-top: 1rem;
+  margin-top: 1rem
+}
+
+.copy-right p{
+  margin: 0;
+  display: inline-block;
+}
+.copy-right p .copy{
+  color:#fff;
+  background: #000;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: inline-block;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+
+    /* About Us Page Styles */
+    .about-banner-holder {
+        background: #000d28 url('/images/bg-aboutus.jpg') no-repeat center center;
+        width: 100%;
+        background-size: cover;
+        min-height: 480px;
+        display: flex;
+        align-items: center;
+            text-align: center;
+    }
+
+    .about-banner-txt {
+        color: #fff;
+        padding: 5em 0;
+    }
+
+    .about-banner-txt h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 2.625rem;
+        margin-bottom: 1.25rem;
+    }
+     .about-banner-txt p {
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .about-content-holder {
+        padding: 5rem 0;
+        background: #fff;
+    }
+    .executive-team-holder {
+        padding: 5rem 0;
+        background: #f8f9fa;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .section-title h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #000d28;
+        position: relative;
+        display: inline-block;
+    }
+
+    .section-title h2:after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 3px;
+        background: #000d28;
+        bottom: -10px;
+        left: 25%;
+    }
+
+    .team-members {
+        margin-top: 2rem;
+    }
+
+    .team-card {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-content {
+        padding: 2rem 2rem 0;
+    }
+    .team-content  .team-img{
+      margin-bottom: 20px;
+    }
+    .team-content h4 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #000d28;
+        margin-bottom: 0.5rem;
+    }
+
+    .team-content .position {
+        font-weight: 500;
+        color: #1456c1;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .team-content .bio {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+/* service micro */
+    .roi-section{
+      background: #F1F1F1;
+      padding: 5rem 0;
+    }
+    .txt-services-roi h1{
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 3rem;
+      
+    }
+    .txt-services-roi p{
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding-right:5rem ;
+    }
+    .exp-section{
+          padding: 9rem 0 0rem;
+    }
+    .exp-area .card{
+      border: none;
+      min-height: 280px;
+    }
+    .exp-area .icon-box img {
+      width: 100%;
+      height: 100px;
+}
+    .exp-area .card p{
+      color: #000;
+      font-size: 1.25rem;
+    line-height: 1.625rem;
+    }
+/* service micro */
+/* design verifications */
+ .dv-area{
+    background:#000d28 url('/images/design-verification-bg.png') no-repeat center top;
+    background-size:cover;
+  }
+  .dv-block-section{
+    padding: 5rem 0;
+  }
+  .dv-block-section .txt-home-partner{
+    text-align: center;
+  }
+   .dv-block-section .txt-home-partner .icon-box {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+}
+.dv-block-section .txt-home-partner .icon-box img {
+    width: 60px;
+    height: 60px;
+}
+.dv-block-section .txt-home-partner .card-title {
+    font-weight: 500;
+}
+.dv-block-section .txt-home-partner p{
+    font-weight: 300;
+}
+   .block-card {
+        background: linear-gradient(145deg, #2c55ad, #122347);
+        border-radius: 20px;
+        padding: 2rem;
+        margin: 0 2rem 3rem;
+        color: white;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: pointer;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+         min-height: 450px;
+    }
+
+    .block-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .block-card:hover::before {
+        opacity: 1;
+    }
+
+    .block-card:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    .block-card.large {
+        grid-column: span 1;
+    }
+/* design verification */
+
+/* physical design */
+ .pd-area{
+    background:#000d28 url('/images/physical-design-bg.png') no-repeat center top;
+    background-size:cover;
+  }
+  .experties-area{
+    background: white;
+  }
+   .txt-address-area h2{
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 3rem;
+      
+    }
+    .txt-address-area p{
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding-right:5rem;
+    }
+    .txt-exp h2{
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .txt-exp p{
+        font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 2.625rem;
+      padding-right:5rem;
+    }
+    .pd-synthesis-section{
+       background:#000d28 url('/images/synthesis-bg.png') no-repeat center top;
+    background-size:cover;
+      
+      padding: 5rem 0;
+    }
+    .block-synthesis .block-card {
+      background:linear-gradient(145deg, rgb(255 255 255 / 95%), rgb(255 255 255 / 88%));
+      color: #000000;
+      margin: 1rem;
+      text-align: center;
+      min-height: 320px;
+  }
+    .block-synthesis .block-card::before {
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    }
+    .block-synthesis .icon-box,.block-synthesis .icon-box img {
+        width: 60px;
+        height: 60px;
+    }
+
+ .block-synthesis .card-title {
+    min-height: 50px;
+    color: #000000;
+    font-size: 1.2rem;
+ }
+/* physical design */
