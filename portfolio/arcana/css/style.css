@@ -18,7 +18,7 @@ html, body {
   height: 100%;
   color:#000;
   background: #fff;;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: 'Poppins-Regular',sans-serif;
 }
 /* header navbar */
@@ -101,7 +101,7 @@ color: #fff;
   outline: none;
   border: none;
 }
-.btnDefault:hover{
+.btnDefault:hover,.btnDefault:focus,.btnDefault:active{
   background: #5aa731;
     color: #fff;
 }
@@ -607,3 +607,37 @@ color: #fff;
     font-size: 1.2rem;
  }
 /* physical design */
+/* scroll bottom to top */
+    #scrollToTopBtn {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color:#5ba633;
+        color: #031634;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        transition: all 0.3s ease;
+    }
+
+    #scrollToTopBtn:hover {
+        background-color: #031634;
+        color: #fff;
+        border: 1px solid #ccc;
+    }
+
+    /* Arrow icon inside the button */
+    #scrollToTopBtn::after {
+        content: "↑";
+        display: block;
+        line-height: 20px;
+    }
+/* scroll bottom to top */

@@ -15,75 +15,71 @@
 
 
 <body>
+    <button id="scrollToTopBtn" title="Go to top"></button>
     <div class="container-fluid px-0">
         <div class="nav-holder">
-            <div class="row">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="images/logo.svg" alt="ArcanaSemi-logo" />
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarsExample04" aria-controls="navbarsExample04"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarsExample04">
-                                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="ArcanaSemi-logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" onclick="location.href=this.href"
+                                    aria-expanded="false">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="services-micro-architectures-&-RTL-design.html">Micro-architectures
+                                            & RTL design</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    <li><a class="dropdown-item" href="design-verfication.html">Design
+                                            Verification</a></li>
+                                    <li><a class="dropdown-item " href="physical-design.html">Physical
+                                            Design</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link  dropdown-toggle" href="#" onclick="location.href=this.href"
-                                            aria-expanded="false">Services</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item"
-                                                    href="services-micro-architectures-&-RTL-design.html">Micro-architectures
-                                                    & RTL design</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="design-verfication.html">Design
-                                                    Verification</a></li>
-                                            <li><a class="dropdown-item " href="physical-design.html">Physical
-                                                    Design</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
-                                            data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item active" href="news.html">News</a></li>
-                                            <li><a class="dropdown-item " href="careers.html">Careers</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#reach-holder">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item position-relative ms-3 d-none">
-                                        <!-- Search Toggle Icon -->
-                                        <button id="searchToggle" class="btn btn-link nav-link px-0"
-                                            aria-label="Open Search">
-                                            <i class="fas fa-search fa-lg"></i>
-                                        </button>
-
-                                        <!-- Expanding Search Input -->
-                                        <form id="searchForm" class="search-form d-inline-block" role="search"
-                                            onsubmit="return false;">
-                                            <input type="search" class="form-control search-input" placeholder="Search"
-                                                aria-label="Search" />
-                                        </form>
-                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active" href="news.html">News</a></li>
+                                    <li><a class="dropdown-item " href="careers.html">Careers</a></li>
 
                                 </ul>
-                            </div>
-                        </div>
-                    </nav>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reach-holder">Contact Us</a>
+                            </li>
+                            <li class="nav-item position-relative ms-3 d-none">
+                                <!-- Search Toggle Icon -->
+                                <button id="searchToggle" class="btn btn-link nav-link px-0" aria-label="Open Search">
+                                    <i class="fas fa-search fa-lg"></i>
+                                </button>
+
+                                <!-- Expanding Search Input -->
+                                <form id="searchForm" class="search-form d-inline-block" role="search"
+                                    onsubmit="return false;">
+                                    <input type="search" class="form-control search-input" placeholder="Search"
+                                        aria-label="Search" />
+                                </form>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="banner-holder pd-area ">
             <div class="container">
@@ -217,7 +213,6 @@
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/script.js"></script>
