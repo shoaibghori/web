@@ -65,7 +65,7 @@ color: #fff;
 /* header navbar */
 /* banner home */
 .banner-holder{
-    background:#000d28 url('/images/home-main-banner1.jpg') no-repeat center top;
+    background:#000d28 url('../images/home-main-banner1.jpg') no-repeat center top;
     width: 100%;
     background-size:cover;
 }
@@ -168,7 +168,7 @@ color: #fff;
   width: 100%;
   padding: 10rem 0;
   text-align: center;
-  background:#000d28  url('/images/bg-why-partener-with-us.jpg') no-repeat center top;
+  background:#000d28  url('../images/bg-why-partener-with-us.jpg') no-repeat center top;
   background-size:cover;
 }
 .partner-holder h1{
@@ -346,7 +346,7 @@ color: #fff;
 
     /* About Us Page Styles */
     .about-banner-holder {
-        background: #000d28 url('/images/bg-aboutus.jpg') no-repeat center center;
+        background: #000d28 url('../images/bg-aboutus.jpg') no-repeat center center;
         width: 100%;
         background-size: cover;
         min-height: 480px;
@@ -485,7 +485,7 @@ color: #fff;
 /* service micro */
 /* design verifications */
  .dv-area{
-    background:#000d28 url('/images/design-verification-bg.png') no-repeat center top;
+    background:#000d28 url('../images/design-verification-bg.png') no-repeat center top;
     background-size:cover;
   }
   .dv-block-section{
@@ -551,7 +551,7 @@ color: #fff;
 
 /* physical design */
  .pd-area{
-    background:#000d28 url('/images/physical-design-bg.png') no-repeat center top;
+    background:#000d28 url('../images/physical-design-bg.png') no-repeat center top;
     background-size:cover;
   }
   .experties-area{
@@ -581,7 +581,7 @@ color: #fff;
       padding-right:5rem;
     }
     .pd-synthesis-section{
-       background:#000d28 url('/images/synthesis-bg.png') no-repeat center top;
+       background:#000d28 url('../images/synthesis-bg.png') no-repeat center top;
     background-size:cover;
       
       padding: 5rem 0;
