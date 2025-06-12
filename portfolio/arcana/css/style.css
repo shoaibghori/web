@@ -1,7 +1,23 @@
 @font-face {
   font-family: 'Poppins-Regular';
   src: url(../webfonts/Poppins-Regular.ttf);
+ font-weight: 400;
+ font-style: normal;
+}
+
+@font-face {
+
+  font-family: 'Poppins-Medium';
+  src: url(../webfonts/Poppins-Medium.ttf);
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url(../webfonts/Poppins-SemiBold.ttf);
+ font-weight: 600;
+  font-style: normal;
 }
 
 * {
@@ -17,9 +33,12 @@ html{
 html, body {
   height: 100%;
   color:#000;
-  background: #fff;;
+  background: #fff;
   /* overflow-x: hidden; */
   font-family: 'Poppins-Regular',sans-serif;
+}
+.clr-green{
+  color: #6aad47;
 }
 /* header navbar */
 .nav-holder .nav-link{
@@ -65,7 +84,7 @@ color: #fff;
 /* header navbar */
 /* banner home */
 .banner-holder{
-    background:#000d28 url('../images/home-main-banner1.jpg') no-repeat center top;
+    background:#000d28 url('../images/home-main-banner.jpg') no-repeat center top;
     width: 100%;
     background-size:cover;
 }
@@ -86,8 +105,8 @@ color: #fff;
   margin-bottom: 2.625rem;
 }
 .btnDefault {
-  background: #fff;
-  color: #000;
+  background: transparent;
+  color: #fff;
   border-radius: 6px;
   font-weight: 500;
   font-size: 1.25rem;
@@ -99,7 +118,8 @@ color: #fff;
   transition: all 0.3s ease;
   cursor: pointer;
   outline: none;
-  border: none;
+  border:1px solid #fff;
+  text-decoration:none;
 }
 .btnDefault:hover,.btnDefault:focus,.btnDefault:active{
   background: #5aa731;
@@ -119,31 +139,327 @@ color: #fff;
 .txt-holder{
     margin: 10em 0;
 }
+.btn-header .btnDefault{
+
+  border-radius: 50px;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  line-height: 18px;
+
+  background: #6aad47;
+
+}
+
+.btn-header .btnDefault:hover{
+
+  background: #04122c;
+
+  color: #fff;
+
+
+
+}
+
+.btn-about{
+
+  border:1px solid #6aad47;
+
+  color: #6aad47;
+
+  font-size: 16px;
+
+  padding:0.3rem 1.5rem !important;
+
+  text-decoration: none;
+
+}
+
+/* carousel area */
+
+.carousel-holder{
+
+  padding: 5em 0 3em;
+
+}
+
+.carousel-holder h1{
+
+  font-size: 32px;
+
+  line-height: 34px;
+
+   font-family: 'Poppins-SemiBold';
+
+   margin-bottom: 20px;
+
+}
+
+  .carousel-container {
+
+            perspective: 1200px;
+
+            width: 300px;
+
+            height: 400px;
+
+            position: relative;
+
+            margin: 0 auto 100px;
+
+        }
+
+
+
+        #carousel {
+
+            width: 100%;
+
+            height: 400px;
+
+            position: relative;
+
+            perspective: 1000px;
+
+            cursor: grab;
+
+            overflow: visible;
+
+            touch-action: pan-y;
+
+
+
+        }
+
+
+
+        .carouselItem {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            transition: transform 0.3s ease, opacity 0.3s ease;
+
+            opacity: 0;
+
+            transform: scale(0.8);
+
+            z-index: 0;
+
+            pointer-events: none;
+
+            border-radius: 8px;
+
+            background-size: cover;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+        }
+
+
+
+        .carouselItem img {
+
+            display: none;
+
+            /* hide original images */
+
+        }
+
+
+
+        .carouselItem.active {
+
+            opacity: 1;
+
+            transform: scale(1);
+
+            z-index: 1;
+
+            pointer-events: auto;
+
+        }
+
+
+
+        /* Mirror reflection only on active */
+
+        .carouselItem.active::after {
+
+            content: '';
+
+            position: absolute;
+
+            bottom: -20%;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background-image: inherit;
+
+            background-size: cover;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+            transform: scaleY(-1);
+
+            -webkit-transform: scaleY(-1);
+
+            filter: blur(3px) opacity(0.2);
+
+            -webkit-filter: blur(3px) opacity(0.2);
+
+            border-radius: 8px;
+
+            z-index: -1;
+
+            opacity: 1;
+
+            transition: opacity 0.3s ease;
+
+            -webkit-transition: opacity 0.3s ease;
+
+            pointer-events: none;
+
+        }
+
+
+
+        .carouselItem.left,
+
+        .carouselItem.right {
+
+            opacity: 1;
+
+            z-index: 0;
+
+            pointer-events: none;
+
+        }
+
+
+
+        .carouselItem.left {
+
+            transform: translateX(-20%) scale(0.8) rotateY(25deg);
+
+        }
+
+
+
+        .carouselItem.right {
+
+            transform: translateX(20%) scale(0.8) rotateY(-25deg);
+
+        }
+
+
+
+        .carouselItem.active.dragging {
+
+            cursor: grabbing;
+
+        }
+
+   .carousel-holder ul{
+
+      margin: 30px 0;
+
+      padding: 0;
+
+    }
+
+    .carousel-holder ul li{
+
+      list-style: none;
+
+      position: relative;
+
+      padding-left: 30px;
+
+      margin:10px 0;
+
+    }
+
+    .carousel-holder ul li:before{
+
+      /* content: ''; */
+
+      left: 0;
+
+      top:0;
+
+      width: 20px;
+
+      height: 20px;
+
+      background: #6AAD47;
+
+      border-radius: 50px;
+
+      position: absolute;
+
+      font-family: 'Font Awesome 6 Free';
+
+      content: '\f00c'; /* Unicode for exclamation-triangle */
+
+      font-weight: 900;
+
+      color: #fff;
+
+      font-size: 12px;
+
+      padding:2px;
+
+      text-align: center;
+
+
+
+    }
+
+/* carousel area */
 /* main banner */
 /* our services */
 .o-services-holder{
-  background: #fff;
-  text-align: center;
-  padding: 3em 0;
+  background: #031c3a;
+  text-align: left;
+  padding: 5em 0;
 }
 .txt-home-services h1{
   font-weight: 600;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  margin-bottom: 1.25rem;
+  font-size: 2rem;
+  line-height: 2.125rem;
+  margin-bottom: 1rem;
 }
 .txt-home-services p{
   font-weight: 300;
-  font-size: 1.25rem;
-  line-height: 2rem;
-  margin-bottom: 1.5rem;
+font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 2.5rem;
 }
-.txt-home-services p + p{
-  margin-bottom: 4rem;
+.card-holder{
+  display: flex;
+  justify-content: center;
 }
 .o-services-holder .card{
-  border:none;
-  min-height:450px;
+ width: 235px;
+  box-sizing: border-box;
+  margin: 0 0 20px 0;
+  float: left;
+  border:1px solid #031c3a;
+  border:1px solid #6AAD47;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
   .o-services-holder .card:hover {
@@ -151,38 +467,59 @@ color: #fff;
     }
 
 .o-services-holder .card-img {
-  border-radius: 30px;
   overflow: hidden;
+position: relative;
 }
 .o-services-holder .card-body {
   padding:1.50rem 0.5rem !important;
+ position: absolute;
+
+    bottom: 0;
+
+    color: #fff;
 }
 .o-services-holder .card-title {
   font-weight: 500;
   font-size: 1.25rem;
-  line-height: 1.375rem;
+  line-height: 1.375rem; cursor: pointer;
+}
+
+.card-link{
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-decoration: none;
+    color: #fff;
+}
+
+.card-link:hover,.card-link:active,.card-link:focus{
+  cursor: pointer;
+  text-decoration: underline;
+  outline: none;
 }
 /* our services */
 /* partner home */
 .partner-holder{
   width: 100%;
-  padding: 10rem 0;
+  padding: 5rem 0;
   text-align: center;
-  background:#000d28  url('../images/bg-why-partener-with-us.jpg') no-repeat center top;
+ color: #000;
+  background:#fff url('../images/partner-bg.jpg') no-repeat center top;
   background-size:cover;
 }
 .partner-holder h1{
-  color: #fff;
+  color: #000;
   font-weight: 600;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.625rem;
   margin-bottom: 3rem;
 }
 
 .txt-home-partner .card{
   text-align: center;
-  min-height: 360px;
+  min-height: 240px;
   background: transparent;
+  border:none;
 }
 .txt-home-partner .icon-box{
   width: 120px;
@@ -195,7 +532,7 @@ color: #fff;
 }
 .txt-home-partner .card-title{
   font-weight: 700;
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
   line-height: 2rem;
   min-height: 80px;
@@ -203,7 +540,7 @@ color: #fff;
 }
 .txt-home-partner .card p{
   font-weight: 400;
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
   line-height: 2rem;
 
@@ -217,6 +554,9 @@ color: #fff;
 .reach-holder{
   text-align: center;
   padding: 8rem 0;
+  background: #000e2b url('../images/form-bg.jpg') no-repeat center top;
+  background-size:cover;
+  color: #fff;
 }
 .txt-holder-reach{
   margin:0 10rem;
@@ -277,7 +617,7 @@ color: #fff;
 }
 .emailus a:hover{
   color:#fff;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 .social-links{
   float:right;
