@@ -6,6 +6,12 @@
 }
 
 @font-face {
+  font-family: 'Poppins-Light';
+  src: url(../webfonts/Poppins-Light.ttf);
+}
+
+
+@font-face {
 
   font-family: 'Poppins-Medium';
   src: url(../webfonts/Poppins-Medium.ttf);
@@ -19,7 +25,13 @@
  font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url(../webfonts/Poppins-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
 
+}
 * {
   margin: 0;
   padding: 0;
@@ -137,6 +149,7 @@ color: #fff;
   outline: none;
   border:1px solid #fff;
   text-decoration:none;
+   font-family: 'Poppins-Light';
 }
 .btnDefault:hover,.btnDefault:focus,.btnDefault:active{
   background: #5aa731;
@@ -160,43 +173,30 @@ color: #fff;
     margin: 10em 0;
 }
 .btn-header .btnDefault{
-
   border-radius: 50px;
-
   color: #fff;
-
   font-size: 16px;
-
   line-height: 18px;
-
   background: #6aad47;
-
+  min-width: 160px;
+  justify-content: center;
+  padding: 15px;
 }
 
 .btn-header .btnDefault:hover{
-
   background: #04122c;
-
   color: #fff;
-
-
-
 }
-
 .btn-about{
-
   border:1px solid #6aad47;
-
   color: #6aad47;
-
   font-size: 16px;
-
   padding:0.3rem 1.5rem !important;
-
   text-decoration: none;
-
 }
-
+.banner-txt .btnDefault{
+padding: 10px 15px;
+}
 /* carousel area */
 
 .carousel-holder{
@@ -314,6 +314,9 @@ color: #fff;
       padding:6px;
       text-align: center;
     }
+    .space-b{
+      padding-right: 15em;
+    }
 /* carousel area */
 /* main banner */
 /* our services */
@@ -324,18 +327,28 @@ color: #fff;
     font-weight: 600;
     font-size: 2rem;
     color: #000;
+    color: red;
     line-height: 2.125rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
+     font-family: 'Poppins-SemiBold',sans-serif;
+}
+.advantages-holder p{
+      font-size: 1.25rem;
+     font-family: 'Poppins-Light',sans-serif;
 }
    .advantages-holder ul{
-      margin: 30px 0;
+      margin:0;
       padding: 0;
     }
     .advantages-holder ul li{
       list-style: none;
       position: relative;
       padding-left: 50px;
-      margin:30px 0;
+      margin:20px 0;
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+     font-family: 'Poppins-Light',sans-serif;
+
     }
     .advantages-holder ul li:before{
       left: 0;
@@ -350,7 +363,7 @@ color: #fff;
       font-weight: 900;
       color: #fff;
       font-size: 12px;
-      padding:6px;
+      padding:3px;
       text-align: center;
     }
   /* .advantages-holder img{
@@ -389,7 +402,7 @@ color: #fff;
 .txt-home-services p{
   color: #fff;
   font-weight: 300;
-font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.625rem;
   margin-bottom: 2.5rem;
 }
@@ -417,9 +430,8 @@ position: relative;
 .o-services-holder .card-body {
   padding:1.50rem 0.5rem !important;
  position: absolute;
-
+ width: 100%;
     bottom: 0;
-
     color: #fff;
 }
 .o-services-holder .card-title {
@@ -429,17 +441,19 @@ position: relative;
 }
 
 .card-link{
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
   text-decoration: none;
     color: #fff;
+     font-family: 'Poppins-Bold' ,sans-serif;
+     /* font-weight: 700; */
 }
 
 .card-link:hover,.card-link:active,.card-link:focus{
   cursor: pointer;
   text-decoration: underline;
   outline: none;
+
 }
 /* our services */
 /* partner home */
@@ -485,7 +499,7 @@ position: relative;
 .txt-home-partner .card p{
   font-weight: 400;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 
 }
@@ -534,6 +548,11 @@ position: relative;
 .btn-submit{
   background: #04122c;
   color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
+
 }
 
 /* reach-holder-form-home */
@@ -591,7 +610,7 @@ position: relative;
 }
 .footer-links{
   overflow: hidden;
-  width: 190px;
+  width: 231px;
   float: right;
 }
 .footer-links ul{
@@ -606,6 +625,8 @@ position: relative;
 .footer-links ul li a{
   text-decoration: none;
   color: #ffffff;
+  font-size: 20px;
+
 }
 .footer-links ul li a:active,.footer-links ul li a:hover,.footer-links ul li a:focus{
   text-decoration: underline;
@@ -619,6 +640,8 @@ position: relative;
 .copy-right p{
   margin: 0;
   display: inline-block;
+  font-size: 20px;
+
 }
 .copy-right p .copy{
   color:#fff;
@@ -629,7 +652,7 @@ position: relative;
   text-align: center;
   display: inline-block;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0 5px;
 }
@@ -648,7 +671,7 @@ position: relative;
 
     .about-banner-txt {
         color: #fff;
-        padding: 5em 0;
+        padding: 5em 3em;
     }
 
     .about-banner-txt h1 {
@@ -773,19 +796,28 @@ position: relative;
     }
     .exp-section{
       color: #fff;
-      background: #031c3a;
+      background: #fff;
       text-align: center;
-      padding: 5em 0;
       margin-bottom: 5rem;
     }
+    .round-box{
+      color: #fff;
+      background: #031c3a;
+      border-radius: 40px;
+      padding: 2rem  5rem;
+
+    }
     .exp-area h1{
-      margin-bottom: 50px;
+      margin-bottom: 25px;
       font-size: 32px;
+    font-family: 'Poppins-SemiBold',sans-serif;
+
     }
     .exp-area h2{
-      font-weight: bold;
-      font-size: 2rem;
+      font-size: 2.5rem;
       line-height: 2.625rem;
+      font-family: 'Poppins-Bold',sans-serif;
+
     }
     .exp-area .card{
       border: none;
@@ -799,6 +831,7 @@ position: relative;
       color: #fff;
       font-size: 1.25rem;
       line-height: 1.625rem;
+      margin-bottom: 0;
     }
 /* service micro */
 /* design verifications */
@@ -813,7 +846,11 @@ position: relative;
   }
   .dv-block-section h1{
     color: #fff;
+    font-size: 2rem;
+    line-height: 2.625rem;
     margin-bottom: 50px;
+    font-family: 'Poppins-SemiBold',sans-serif;
+
   }
   .dv-block-section .txt-home-partner{
     text-align: left;
