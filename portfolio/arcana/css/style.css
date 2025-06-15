@@ -423,6 +423,7 @@ padding: 10px 15px;
 }
   .o-services-holder .card:hover {
         transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(255, 255, 255, 0.25);
     }
 
 .o-services-holder .card-img {
