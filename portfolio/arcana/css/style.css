@@ -952,10 +952,10 @@ margin-bottom: 10px;
 /* design verification */
 
 /* physical design */
- /* .pd-area{
+  .phy-area{
     background:#000d28 url('../images/physical-design-bg.jpg') no-repeat center top;
     background-size:cover;
-  } */
+  } 
   .experties-area{
     background: white;
   }
