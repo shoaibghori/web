@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                        <nav class="navbar navbar-expand-lg navbar-lght bg-lght" aria-label="Fourth navbar example">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="index.html">
                                     <img src="images/logo.svg" alt="ArcanaSemi-logo" class="img-fluid" width="295"
@@ -84,8 +84,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-txt">
-                            <h1>Meet Your Design Verification Coverage <br />Goals <span class="clr-green">
-                                    Faster</span></h1>
+                            <h1>Meet Your Design Verification Goals Faster <span class="desktop-br"><br></span>and <span
+                                    class="clr-green">
+                                    Reliably</span></h1>
                             <p>Faster and predictable closure, strong debugging and analytical skills</p>
                             <a class="nav-link btnDefault" href="#reach-holder">Contact Us <span class="arrow"><i
                                         class="fa-solid fa-arrow-right-long"></i></span></a>
@@ -97,10 +98,11 @@
         <div class="advantages-holder">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pe-5">
-                            <h1>Get first Time <span class="clr-green">Right Silicon </span></h1>
-                            <p>In the race to tapeout, pre-silicon verification is your final safeguard against costly
+                    <div class="col-lg-6 col-md-6">
+                        <div class="pe-0 pe-lg-5 mb-5">
+                            <h1>Get First Time <span class="clr-green">Silicon Success </span></h1>
+                            <p>In the race to tapeout, comprehensive verification is your best safeguard against missing
+                                project deadlines and costly
                                 respins. Yet most chip failures can be traced back to missed bugs during verification.
                                 Our mission is:</p>
                             <ul class="rs-list">
@@ -108,12 +110,12 @@
                                     Close coverage gaps
                                 </li>
                                 <li>Slash debug cycles </li>
-                                <li>Protect your timeline</li>
+                                <li>Meet your project schedule</li>
                             </ul>
                             <a href="aboutus.html" class="btnDefault btn-about">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="rs-bg"></div>
                     </div>
                 </div>
@@ -128,7 +130,7 @@
                             <h1>Accelerating Your Path to Tapeout Confidence </h1>
 
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="block-card">
                                         <div class="icon-box">
                                             <img src="images/icons/soc.svg" class="card-img-top img-fluid"
@@ -143,7 +145,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="block-card">
                                         <div class="icon-box">
                                             <img src="images/icons/ip.svg" class="card-img-top img-fluid" alt="30 plus">
@@ -158,7 +160,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="block-card">
                                         <div class="icon-box">
                                             <img src="images/icons/formal.svg" class="card-img-top img-fluid"
@@ -175,7 +177,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="block-card">
                                         <div class="icon-box">
                                             <img src="images/icons/uvm.svg" class="card-img-top img-fluid"
@@ -201,12 +203,12 @@
         <div class="roi-section o-xp">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="roi-img">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="o-xp-img">
                             <img src="images/xp-bg.jpg" alt="Our Experties" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-8">
                         <div class="txt-services-roi">
                             <h1>Our Expertise in Design Verification</h1>
                             <p>At the heart of every reliable chip lies rigorous verification. Our team specializes
@@ -312,6 +314,38 @@
     <script src="js/script.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scorll.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+
+            dropdowns.forEach(dropdown => {
+                const link = dropdown.querySelector(".nav-link");
+
+                // Only on mobile
+                link.addEventListener("click", function (e) {
+                    const isMobile = window.innerWidth <= 1024;
+                    if (isMobile) {
+                        e.preventDefault();
+                        dropdown.classList.toggle("show");
+
+                        // Close other open dropdowns
+                        dropdowns.forEach(d => {
+                            if (d !== dropdown) {
+                                d.classList.remove("show");
+                            }
+                        });
+                    }
+                });
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".nav-item.dropdown.show").forEach(d => d.classList.remove("show"));
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

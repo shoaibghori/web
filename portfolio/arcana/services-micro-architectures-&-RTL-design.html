@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                        <nav class="navbar navbar-expand-lg navbar-lght bg-lght" aria-label="Fourth navbar example">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="index.html">
                                     <img src="images/logo.svg" alt="ArcanaSemi-logo" class="img-fluid" width="295"
@@ -82,9 +82,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-txt">
-                            <h1>Accelerate Your Innovation with Scalable <br /> <span class="clr-green">
+                            <h1>Accelerate Your Innovation with Scalable <span class="desktop-br"><br></span> <span
+                                    class="clr-green">
                                     Microarchitecture</span> & <span class="clr-green">RTL Design</span> </h1>
-                            <p>From high-level system definition to power-aware RTL, we deliver PPA-optimized<br />
+                            <p>From high-level system definition to power-aware RTL, we deliver PPA-optimized<span
+                                    class="desktop-br"><br></span>
                                 designs
                                 for advanced nodes</p>
                             <a class="nav-link btnDefault" href="#reach-holder">Contact Us <span class="arrow"><i
@@ -97,8 +99,8 @@
         <div class="advantages-holder">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pe-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="pe-0 pe-lg-5 mb-4">
                             <h1>Your Agile Advantage <span class="clr-green"> With Us</span></h1>
                             <p>Struggling with RTL iterations that derail deadlines? Third-party IP integration draining
                                 your resources and eating into your project deadlines?</p>
@@ -114,40 +116,16 @@
                             <a href="aboutus.html" class="btnDefault btn-about">About Us</a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="adv-bg"></div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- <div class="roi-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 pe-0">
-                        <div class="txt-services-roi">
-                            <h1>Expertise That Delivers Guaranteed ROI</h1>
-                            <p>We help chip design teams beat time and budget pressures with predictable PPA outcomes,
-                                backed by decades of silicon-proven expertise. From SoC/IP stitching to RISC-V and
-                                Arm-based subsystems, our team has delivered complex designs across edge, automotive,
-                                AI, IoT, and consumer electronics.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 ps-0">
-                        <div class="roi-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-
         <div class="roi-section exp-roi-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 pe-0">
+                    <div class="col-lg-6 col-md-6 pe-0">
                         <div class="txt-services-roi">
                             <h1>Expertise That Delivers Guaranteed ROI</h1>
                             <p>We help chip design teams beat time and budget pressures with predictable PPA outcomes,
@@ -156,7 +134,7 @@
                                 AI, IoT, and consumer electronics.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 ps-0">
+                    <div class="col-lg-6 col-md-6 ps-0">
                         <div class="bg-exp-services">
                             <img src="images/roi.jpg" alt="Expertise That Delivers Guaranteed ROI" class="img-fluid">
                         </div>
@@ -173,7 +151,7 @@
                             <div class="txt-home-partner exp-area">
                                 <h1>Accelerating Your Silicon Vision</h1>
                                 <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-4 col-md-4">
                                         <div class="card">
                                             <div class="">
                                                 <h2 class="clr-green">15+</h2>
@@ -183,7 +161,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-4 col-md-4">
                                         <div class="card">
                                             <div class="">
                                                 <h2 class="clr-green">100+</h2>
@@ -193,7 +171,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-4 col-md-4">
                                         <div class="card">
                                             <div class="">
                                                 <h2 class="clr-green">250+</h2>
@@ -230,7 +208,7 @@
         <div class="footer-holder ">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-8">
                         <div class="footer-logo-area">
                             <div class="footer-logo text-start">
                                 <a href="index.html">
@@ -239,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer-links">
                             <ul>
                                 <li class="title-list">Services</li>
@@ -293,6 +271,38 @@
     <script src="js/script.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scorll.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+
+            dropdowns.forEach(dropdown => {
+                const link = dropdown.querySelector(".nav-link");
+
+                // Only on mobile
+                link.addEventListener("click", function (e) {
+                    const isMobile = window.innerWidth <= 1024;
+                    if (isMobile) {
+                        e.preventDefault();
+                        dropdown.classList.toggle("show");
+
+                        // Close other open dropdowns
+                        dropdowns.forEach(d => {
+                            if (d !== dropdown) {
+                                d.classList.remove("show");
+                            }
+                        });
+                    }
+                });
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".nav-item.dropdown.show").forEach(d => d.classList.remove("show"));
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

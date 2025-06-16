@@ -1,6 +1,8 @@
   /* Responsive adjustments */
    @media (max-width: 576px) {
-    
+    .navbar-collapse{
+        margin-bottom: 20px;
+    }
     .banner-txt {
         padding: 6em  0;
     }
@@ -26,6 +28,212 @@
         font-size: 1.5rem;
         min-height: auto;
         margin-bottom: 20px;
+    }
+    .reach-holder {
+        padding: 5rem 0 2rem !important;
+    }
+    .txt-holder-reach {
+        margin: 0;
+    }
+    .txt-holder-reach h5 {
+        margin-bottom: 2rem;
+    }
+    .txt-holder-reach h1 {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        margin-bottom: 3rem;
+    }
+        .carousel-holder h1{
+        font-size: 23px;
+    }
+    .o-services-holder .card{
+        width: 265px;
+    }
+    .space-b{
+        padding-right: 0;
+    }
+    #carousel{
+        height: 350px;
+    }
+    .carousel-container{
+        width: 230px;
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .card-holder {
+        display: grid;
+    }
+    .partner-holder h1 {
+        font-size: 1.5rem !important;
+    }
+    .footer-logo-area {
+        margin: 0 auto 40px;
+        width: 100%;
+    }
+    .footer-links {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+    .copy-right p{
+        margin-bottom: 20px;
+    }
+    .social-links {
+        float: none;
+    }
+    .desktop-br{
+        display: none;
+    }
+    .footer-links ul{
+       margin-bottom:30px;
+    }
+    /* services */
+    .adv-bg{
+        min-height: 222px;
+    }
+    .advantages-holder {
+        padding: 5em 0 1em;
+    }
+    .bg-exp-services{
+        display: none;
+    }
+    .txt-services-roi {
+        padding: 2rem 0;
+    }
+    .round-box {
+        padding: 3rem 1rem;
+    }
+    .footer-logo{
+        text-align: center !important;
+    }
+    .footer-logo img{
+        width: 295px;
+        text-align: center !important;
+    }
+    /* services */
+
+    /* dv */
+    .rs-bg {
+        min-height: 222px;
+        margin-bottom: 30px;
+    }
+    .dv-block-section{
+        padding: 5rem 0 2rem;
+    }
+    .dv-block-section h1{
+        font-size: 1.7rem;
+    line-height: 2rem;
+    }
+    .dv-block-section .txt-home-partner .icon-box {
+        margin: 0 auto;
+        float: none;
+    }
+    .dv-block-section .txt-home-partner .card-title {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 0;
+    }
+     .dv-block-section .txt-home-partner .card-body {
+        text-align: center;
+    }
+     .dv-block-section .txt-home-partner .card-body p{
+        margin-bottom: 2.5rem;
+    }
+    .o-xp-img{
+        margin-bottom: 50px;
+    }
+    .o-xp .txt-services-roi{
+        padding: 0 1rem;
+    }
+    .txt-services-roi h1 {
+        font-size: 1.4rem;
+    }
+    .txt-services-roi p{
+        padding-right: 0;
+    }
+    /* dv */
+    /* pd */
+    .address-holder ul{
+        padding: 0;
+    }
+    .address-holder {
+        padding: 5rem 0 2rem;
+    }
+    .pd-synthesis-section{
+        padding: 3rem 0;
+
+    }
+    .advantages-holder h1{
+        font-size: 1.6rem;
+    }
+    /* pd */
+    /* aboutus */
+    .about-banner-txt {
+        padding: 5em 0em;
+    }
+    .section-title {
+        margin-bottom: 2rem;
+    }
+    .section-title h2{
+    font-size: 2rem;
+    }
+    .team-content{
+        text-align: center;
+    }
+    /* aboutus */
+    /* news */
+.news-txt h1{
+        font-size: 1.7rem;
+        line-height: 2.625rem;
+
+}
+    /* news */
+   }
+
+   @media only screen and (min-width:577px) and (max-width: 767.99px) {
+    .navbar-collapse{
+    margin-bottom: 20px;
+    }
+    .banner-txt {
+        padding: 6em  0;
+    }
+    .banner-txt h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .banner-txt p {
+        font-size: 1.2rem;
+        line-height: 1.625rem;
+    }
+    .txt-home-services h1 {
+    font-size: 2rem;
+    }
+    .partner-holder {
+        padding: 5rem 0px 0;
+    }
+    .partner-holder h1 {
+        font-size: 1.8rem;
+    }
+    .txt-home-partner .card-title {
+        font-size: 1.5rem;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+     .space-b{
+        padding-right: 0;
+    }
+    .card-holder {
+        display: inline;
+    }
+    .o-services-holder .card{
+        margin: 0 14px 20px 0;
+            width: 244px;
     }
     .reach-holder {
         padding: 5rem 0;
@@ -55,78 +263,70 @@
         margin-bottom: 20px;
     }
     .social-links {
-    float: none;
-}
-   }
-
-   @media (max-width: 768px) {
-    .banner-txt {
-        padding: 6em  0;
-    }
-    .banner-txt h1 {
-        font-weight: 600;
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-    .banner-txt p {
-        font-size: 1.2rem;
-        line-height: 1.625rem;
-    }
-    .txt-home-services h1 {
-    font-size: 2rem;
-    }
-    .partner-holder {
-        padding: 5rem 0px 0;
-    }
-    .partner-holder h1 {
-        font-size: 1.8rem;
-    }
-    .txt-home-partner .card-title {
-        font-size: 1.5rem;
-        min-height: auto;
-        margin-bottom: 20px;
-    }
-    .reach-holder {
-        padding: 5rem 0;
-    }
-    .txt-holder-reach {
-        margin: 0;
-    }
-    .txt-holder-reach h5 {
-        margin-bottom: 2rem;
-    }
-    .txt-holder-reach h1 {
-        font-size: 1.5rem;
-        line-height: 1.625rem;
-        margin-bottom: 3rem;
-    }
-    .footer-logo-area {
-        margin: 0 auto 40px;
-    }
-    .footer-links {
-        margin: 0 auto;
         float: none;
     }
-    .copy-right {
+        /* services */
+    .adv-bg{
+        min-height: 222px;
+    }
+    .advantages-holder {
+        padding: 5em 0 1em;
+    }
+    .bg-exp-services{
+        display: none;
+    }
+    .txt-services-roi {
+        padding: 2rem 0;
+    }
+    .round-box {
+        padding: 3rem 1rem;
+    }
+    .footer-logo{
+        text-align: center !important;
+    }
+    .footer-logo img{
+        width: 295px;
+        text-align: center !important;
+    }
+    /* services */
+       /* dv */
+
+    .o-xp-img{
+        margin-bottom: 50px;
+    }
+    .o-xp .txt-services-roi{
+        padding: 0 1rem;
+    }
+    .txt-services-roi h1 {
+        font-size: 1.4rem;
+    }
+    .txt-services-roi p{
+        padding-right: 0;
+    }
+    /* dv */
+ /* aboutus */
+    .about-banner-txt {
+        padding: 5em 0em;
+    }
+    .section-title {
+        margin-bottom: 2rem;
+    }
+    .section-title h2{
+    font-size: 2rem;
+    }
+    .team-content{
         text-align: center;
     }
-    .copy-right p{
-        margin-bottom: 20px;
-    }
-    .social-links {
-    float: none;
-}
+    /* aboutus */
    }
 
-
-
-
-
-
-
-
-
-    @media (max-width: 992px) {
+    @media only screen and (min-width:768px) and (max-width: 991.99px) {
+        .navbar-collapse{
+        margin-bottom: 20px;
+        }
+        .desktop-br{
+        display: none;
+    }
         .about-banner-txt h1 {
             font-size: 2.5rem;
             line-height: 3rem;
@@ -139,9 +339,103 @@
         .team-content h4 {
             font-size: 1.3rem;
         }
+        .dropdown-menu {
+            position: static;
+            transform: none;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            display: none; /* Initially hidden */
+        }
+        .nav-item.dropdown.show .dropdown-menu {
+            display: block; /* Show on tap (via JS) */
+        }
+        .card-holder {
+                display: inline;
+            }
+            .o-services-holder .card{
+                margin: 0 14px 20px 0;
+                    width: 218px;
+            }
+            #scrollToTopBtn{
+                bottom: 105px;
+            }
+            /* services */
+                .advantages-holder {
+                    padding: 5em 0 1em;
+                }
+                .advantages-holder p, .advantages-holder ul li {
+                font-size: 1rem;
+            }
+                .advantages-holder h1 {
+                font-size: 1.5rem;
+
+            }
+                
+                .roi-section {
+                    margin: 2rem 0 5rem;
+                }
+                .txt-services-roi {
+                    padding: 2rem 0;
+                }
+                .round-box {
+                    padding: 3rem 1rem;
+                }
+            .footer-logo-area {
+                width: 220px;
+            }
+        /* services */
+        /* dv */
+        .dv-block-section .txt-home-partner .icon-box {
+            float: none;
+        }
+        
+    .dv-block-section .txt-home-partner .card-title {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 0;
+    }
+     .dv-block-section .txt-home-partner .card-body {
+        text-align: center;
+    }
+     .dv-block-section .txt-home-partner .card-body p{
+        margin-bottom: 2.5rem;
+    }
+            .o-xp-img{
+                margin-bottom: 50px;
+            }
+            .o-xp .txt-services-roi{
+                padding: 0 1rem;
+            }
+            .txt-services-roi h1 {
+                font-size: 1.4rem;
+            }
+            .txt-services-roi p{
+                padding-right: 0;
+            }
+            /* dv */
+                    /* pd */
+
+    .pd-synthesis-section .block-card {
+        min-height: 400px;
+    }
+        /* pd */
+            
     }
 
-    @media (max-width: 768px) {
+   @media only screen and (min-width:992px) and (max-width: 1199.99px) {
+    
+      .card-holder {
+        display: inline;
+    }
+     .o-services-holder .card{
+        margin: 0 14px 20px 0;
+            width: 208px;
+    }
+    #scrollToTopBtn{
+        bottom: 105px;
+    }
         .about-banner-txt {
             padding: 3em 0;
         }
@@ -159,4 +453,61 @@
         .team-card {
             margin-bottom: 20px;
         }
+        /* dv */
+        .banner-txt h1 {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+        /* dv */
+                /* pd */
+
+    .pd-synthesis-section .block-card {
+        min-height: 350px;
     }
+        /* pd */
+         /* aboutus */
+
+        .team-content h4 {
+            font-size: 1.2rem;
+        }
+    /* aboutus */
+    }
+ @media only screen and (min-width:1200px) and (max-width: 1399.99px) {
+     #scrollToTopBtn{
+        bottom: 105px;
+    }
+ }
+/* === Desktop Only: Hover dropdown with absolute position === */
+@media (min-width: 1024px) {
+    
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
+/* === Mobile: Show dropdown as normal block flow === */
+@media (max-width: 991px) {
+  .dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: none; 
+  }
+
+  .nav-item.dropdown.show .dropdown-menu {
+    display: block; 
+    width: 200px;
+  }
+}

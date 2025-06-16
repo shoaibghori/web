@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                        <nav class="navbar navbar-expand-lg navbar-lght bg-lght" aria-label="Fourth navbar example">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="index.html">
                                     <img src="images/logo.svg" alt="ArcanaSemi-logo" class="img-fluid" width="295"
@@ -83,7 +83,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-txt">
-                            <h1>Achieve PPA Targets Faster - From <span class="clr-green"> Specs to <br />Silicon</span>
+                            <h1>Achieve PPA Targets Faster - From <span class="clr-green"> Specs to <span
+                                        class="desktop-br"><br></span>Silicon</span>
                             </h1>
                             <p>Optimized placement, low-skew CTS, and STA, EM-IR, DRC closure for 5nm, 7nm & beyond</p>
                             <a class="nav-link btnDefault" href="#reach-holder">Contact Us <span class="arrow"><i
@@ -97,21 +98,22 @@
         <div class="advantages-holder">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pe-4">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="pe-lg-4 pe-0 mb-5">
 
                             <h1>Our Expertise, <span class="clr-green">Your Competitive Edge </span></h1>
                             <p>ArcanaSemi isn&apos;t about flashy promises—we deliver proven, practical solutions,
                                 backed by a strong track record of successful SoC tapeouts and IP hardening projects
                                 across nodes from 16nm to 5nm.</p>
                             <p> Our team of industry veterans works side-by-side with you
-                                to ensure every step of the chip design flow is optimized for quality and efficiency.
+                                to ensure every step of the physical design flow is optimized for faster
+                                conversions and on schedule tapeout.
                             </p>
 
                             <a href="aboutus.html" class="btnDefault btn-about">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6  col-md-6">
                         <div class="rs-bg ex-bg"></div>
                     </div>
                 </div>
@@ -127,10 +129,10 @@
                         <div class="txt-home-services">
                             <h1>Addressing Your Core Challenges</h1>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-3">
                                     <div class="add-img"></div>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lg-9 col-md-9">
                                     <ul>
                                         <li>
                                             <h2>Design Closure and Time-to-Market</h2>
@@ -148,11 +150,11 @@
                                                 supports your chip&apos;s key metrics</p>
                                         </li>
                                         <li>
-                                            <h2>Ensuring Robustness and Signoff Readiness</h2>
+                                            <h2>Ensuring Robustness and Signoff Closure</h2>
                                             <p>From floor planning and placement to CTS and routing, our physical design
                                                 services are built for signoff confidence. We focus on design closure
                                                 with fewer iterations — minimizing downstream surprises and ensuring a
-                                                smooth handoff to manufacturing</p>
+                                                smooth handoff to the foundry</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -173,7 +175,7 @@
                             <div class="row">
                                 <div class="col-lg-10 mx-auto">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6">
                                             <div class="block-card">
                                                 <div class="card-body">
                                                     <h1 class="card-title">Synthesis & Timing Analysis</h1>
@@ -185,10 +187,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6">
                                             <div class="block-card">
                                                 <div class="card-body">
-                                                    <h1 class="card-title">Floorplanning & Feasibility Studies</h1>
+                                                    <h1 class="card-title">Floorplanning & Feasibility</h1>
                                                     <p>Our floorplanning expertise includes robust power planning and
                                                         feasibility assessments, ensuring that your layout is optimized
                                                         for performance, power, routability, and manufacturability from
@@ -196,18 +198,18 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6">
                                             <div class="block-card">
                                                 <div class="card-body">
                                                     <h1 class="card-title">Placement & Clock Tree Synthesis (CTS)</h1>
                                                     <p>With a keen focus on signal integrity and timing optimization,
                                                         our team designs placement strategies and clock distribution
                                                         networks optimized for performance and low power, ensuring they
-                                                        meet your design’s operational requirements</p>
+                                                        meet your design’s operational and PPA goals.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6">
                                             <div class="block-card">
                                                 <div class="card-body">
                                                     <h1 class="card-title">Routing & Signoff Preparation</h1>
@@ -309,6 +311,38 @@
     <script src="js/script.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scorll.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+
+            dropdowns.forEach(dropdown => {
+                const link = dropdown.querySelector(".nav-link");
+
+                // Only on mobile
+                link.addEventListener("click", function (e) {
+                    const isMobile = window.innerWidth <= 1024;
+                    if (isMobile) {
+                        e.preventDefault();
+                        dropdown.classList.toggle("show");
+
+                        // Close other open dropdowns
+                        dropdowns.forEach(d => {
+                            if (d !== dropdown) {
+                                d.classList.remove("show");
+                            }
+                        });
+                    }
+                });
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".nav-item.dropdown.show").forEach(d => d.classList.remove("show"));
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

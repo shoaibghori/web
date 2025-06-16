@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-md navbar-lght bg-lght" aria-label="Fourth navbar example">
+                        <nav class="navbar navbar-expand-lg navbar-lght bg-lght" aria-label="Fourth navbar example">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="index.html">
                                     <img src="images/logo.svg" alt="ArcanaSemi-logo" class="img-fluid" width="295"
@@ -83,12 +83,13 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-txt">
-                            <h1>Turning Most Advanced AI Chips into <br /> Market Ready Silicon - <span
-                                    class="clr-green">
+                            <h1>Turning Most Advanced AI Chips into <span class="desktop-br"><br></span> Market Ready
+                                Silicon - <span class="clr-green">
                                     Faster</span> </h1>
-                            <p>From specs to silicon meet your verification metrics and PPA goals faster <br> and more
+                            <p>From specs to silicon meet your verification metrics and PPA goals faster <span
+                                    class="desktop-br"><br></span>and more
                                 reliably on your target process technology node</p>
-                            <a class="nav-link btnDefault" href="services-micro-architectures-&-RTL-design.html">Explore
+                            <a class="nav-link btnDefault" href="#experience">Explore
                                 Our Services
                                 <!-- <span class="arrow"><i class="fa-solid fa-arrow-right-long"></i></span> -->
                             </a>
@@ -123,9 +124,11 @@
 
                         <h1>Your Silicon Confidence Starts Here</h1>
                         <div class="space-b">
-                            <p>Tired of vendors lacking top-tier chip design skills? <br> Worried about delays that
+                            <p>Tired of vendors lacking top-tier chip design skills? <span
+                                    class="desktop-br"><br></span> Worried about delays that
                                 could
-                                cause you to miss your<br> market window? Concerned about IP security and compliance?
+                                cause you to miss your<span class="desktop-br"><br></span> market window? Concerned
+                                about IP security and compliance?
                             </p>
                             <ul>
                                 <li>
@@ -140,7 +143,7 @@
                 </div>
             </div>
         </div>
-        <div class="o-services-holder">
+        <div class="o-services-holder" id="experience">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -211,18 +214,18 @@
                         <div class="txt-home-partner">
                             <h1>Why Partner With Us?</h1>
                             <div class="row  justify-content-center">
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="card">
                                         <div class="icon-box">
                                             <img src="images/icons/slash-re-spin-costs.svg"
                                                 class="card-img-top img-fluid" alt="Slash Re-Spin Costs">
                                         </div>
                                         <div class="card-body">
-                                            <p>Proven Specs to Silicon Experience </p>
+                                            <p>Proven Specs to Silicon Delivery </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="card">
                                         <div class="icon-box">
                                             <img src="images/icons/scale-teams-not-headaches.svg"
@@ -233,14 +236,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="card">
                                         <div class="icon-box">
                                             <img src="images/icons/full-stack-expertise.svg"
                                                 class="card-img-top img-fluid" alt="Full-Stack Expertise">
                                         </div>
                                         <div class="card-body">
-                                            <p>Niche Specific SoC and IP Experience</p>
+                                            <p>Strong AI SoC and IP Experience</p>
                                         </div>
                                     </div>
                                 </div>
@@ -334,7 +337,40 @@
     <script src="js/script.js"></script>
     <script src="js/scorll.js"></script>
     <script src="js/carousel-swip.js"></script>
+    <!-- <script src="js/mobiledropdown.js"></script> -->
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+
+            dropdowns.forEach(dropdown => {
+                const link = dropdown.querySelector(".nav-link");
+
+                // Only on mobile
+                link.addEventListener("click", function (e) {
+                    const isMobile = window.innerWidth <= 1024;
+                    if (isMobile) {
+                        e.preventDefault();
+                        dropdown.classList.toggle("show");
+
+                        // Close other open dropdowns
+                        dropdowns.forEach(d => {
+                            if (d !== dropdown) {
+                                d.classList.remove("show");
+                            }
+                        });
+                    }
+                });
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".nav-item.dropdown.show").forEach(d => d.classList.remove("show"));
+                }
+            });
+        });
+    </script>
 
 
 </body>
