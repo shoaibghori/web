@@ -58,6 +58,9 @@ html, body {
   font-size: 16px;
   color:#000;
 }
+.nav-holder .container-fluid{
+  padding: 0 !important;
+}
 .nav-holder .navbar-nav li.dropdown ul li a:hover{
 background: #6aad47 !important;
 color: #fff;
@@ -524,6 +527,8 @@ padding: 10px 15px;
   text-align: center;
   padding: 8rem 0;
   background: #000e2b url('../images/form-bg.jpg') no-repeat center top;
+  /* background: tan url('../images/form-bg.jpg') no-repeat center top; */
+
   background-size:cover;
   color: #fff;
 }
@@ -573,6 +578,7 @@ padding: 10px 15px;
       background: #000e2b;
       color: #ffffff;
     padding: 3rem 0 1rem;
+    /* min-height: 600px; */
 }
 .footer-logo-area {
   width: 300px;
@@ -628,7 +634,7 @@ padding: 10px 15px;
   float: right;
 }
 .footer-links ul{
-  margin: 0 20px 0 0;
+  margin: 0 50px 0 0;
   padding: 0;
   list-style: none;
   float: left;
@@ -645,8 +651,8 @@ margin-bottom: 10px;
 }
 .footer-links ul li a{
   text-decoration: none;
-  color: #ffffff;
-  font-size: 18px;
+  color:#d3d3d3;
+  font-size: 16px;
 
 }
 .footer-links ul li a:active,.footer-links ul li a:hover,.footer-links ul li a:focus{
@@ -789,6 +795,11 @@ margin-bottom: 10px;
     }
     
 /* service micro */
+.micor-bg{
+        background: #000d28 url('../images/micro-bg.jpg') no-repeat center center;
+        background-size: cover;
+
+}
     .roi-section{
       margin: 5rem 0; 
       background: #6aad47;
@@ -941,10 +952,10 @@ margin-bottom: 10px;
 /* design verification */
 
 /* physical design */
- .pd-area{
+ /* .pd-area{
     background:#000d28 url('../images/physical-design-bg.jpg') no-repeat center top;
     background-size:cover;
-  }
+  } */
   .experties-area{
     background: white;
   }
